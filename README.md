@@ -16,6 +16,13 @@ This repository allows you to do the following for a given flood event of intere
   1. Determine if there was a Sentinel-1 and/or HLS overpass on your date of interest. If there are both, it will return the overlapping footprint of Sentinel-1 and HLS.
   2. Quantify the cloud cover percentage in your area of interest for the various optical sensors. This will allow you to determine which optical product has the best view of ground conditions, as the optical products are acquired at different times of day.
   3. Obtain up to 7 flood products (depending on temporal extent and resolution of products) for a given day during a flood event.
-  4.  Distribute sampling points in order to evaluate the accuracy of the various flood products based on reference data obtained from high-resolution imagery. 
+  4.  Distribute sampling points in order to evaluate the accuracy of the various flood products based on reference data obtained from high-resolution imagery.
+
+The repository consists of both "scripts" and "modules". Both of these are .py files. The "modules" are designed to be reused by you. The "scripts" are code that we used in our research, but is not designed to be replicated. In order to run the modules, you will need a time period of interest, and a region of interest. for a flood event.You can run the modules sequentially (i.e module 1, module 2, module 3....) to replicate our workflow. Below you can find a description of what each script and module will do. 
+
+* Script 1: Data Availability. This script will determine the cloud-free flood events where all flood products were available.
+* Script 2: Slope and Elevation Analysis. This script was used to determine the slope and elevation classes used in the sampling design
+
+* Module 1: HydroSAR: This 
 
   For a full overview of these products, including the products full names, documentation, spatial extent/resolution, temporal extent/resolution, latency, and more, please see the spreadsheet called "flood_product_info.csv" located in the main folder of this Github. The notebooks folder contains several Google Colaboratory notebooks that will allow you to replicate our workflow. 
