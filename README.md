@@ -8,8 +8,8 @@ Welcome to SERVIR's Flood Mapping Intercomparison Github! This code repository w
 * GFM (Global Flood Monitor). Based on Sentinel-1 (SAR) satellite observations.
 * MCDWD (MODIS Combined Water Detection Product). Based on MODIS (optical) satellite observations.
 * DSWx-HLS (Dynamic Surface Water Extent - Harmonized Landsat Sentinel Product). Based on HLS (optical) observations.
-* DSWx-S1 (Dynamic Surface Water Extent - Sentinel-1). Based on Sentinel-1 (SAR observations). 
-* HYDRAFloods. Based on Sentinel-1 and other observations.
+* DSWx-S1 (Dynamic Surface Water Extent - Sentinel-1). Based on Sentinel-1 (SAR) observations. 
+* HYDRAFloods. Based on Sentinel-1 observations.
 * HYDROSAR. Based on Sentinel-1 (SAR) observations.
 
 This repository allows you to do the following for a given flood event of interest: 
