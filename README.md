@@ -25,7 +25,7 @@ The repository consists of both "scripts" and "modules". Both of these are .py f
 
 * Module 1: HydroSAR: This module will obtain the HydroSAR flood product for the region of interest during a single day of interest. 
 * Module 2: HydraFloods: This module will obtain the HYDRAFloods flood product for the region of interest during a single day of interest. 
-* Module 3: Product Access. This module will access the MCDWD, VFM, GFM, DSWx-HLS products (if they are available) for the region of interest during a single day of interest.
-* Module 4: Harmonization & Validation. 
+* Module 3: Product Access. This module will access the MCDWD, VFM, GFM, DSWx-HLS, and DSWX-S1 products (if they are available) for the region of interest during a single day of interest.
+* Module 4: Harmonization & Validation. This module will harmonize all available products to a single classification schema. 
 
   For a full overview of these products, including the products full names, documentation, spatial extent/resolution, temporal extent/resolution, latency, and more, please see the spreadsheet called "flood_product_info.csv" located in the main folder of this Github. The notebooks folder contains several Google Colaboratory notebooks that will allow you to replicate our workflow. 
