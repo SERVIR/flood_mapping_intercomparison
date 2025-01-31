@@ -2,13 +2,14 @@
 
 NOTE: This repository is in active development. All notebooks here are subject to change and do not include full documentation. 
 
-Welcome to SERVIR's Flood Mapping Intercomparison Github! This code repository will introduce you to different flood mapping products and packages produced by researchers including ESA and NASA. These flood mapping products map surface water in near real time from Satellite Observations. The flood products considered for this study include the following 
+Welcome to SERVIR's Flood Mapping Intercomparison Github! This code repository will introduce you to different flood mapping products and packages produced by researchers including ESA (The European Space Agency) and NASA (The US National Aeronautics and Space Administration). These flood mapping products map surface water in near real time from satellite observations. The flood products considered for this study include the following products: 
 
 * VFM (VIIRS flood Map). Based on VIIRS (optical) satellite observations.
 * GFM (Global Flood Monitor). Based on Sentinel-1 (SAR) satellite observations.
 * MCDWD (MODIS Combined Water Detection Product). Based on MODIS (optical) satellite observations.
 * DSWx-HLS (Dynamic Surface Water Extent - Harmonized Landsat Sentinel Product). Based on HLS (optical) observations.
-* DSWx-S1 (Dynamic Surface Water Extent - Sentinel-1). Based on Sentinel-1 (SAR) observations. 
+* DSWx-S1 (Dynamic Surface Water Extent - Sentinel-1)
+    * Based on Sentinel-1 (SAR) observations. 
 * HYDRAFloods. Based on Sentinel-1 observations.
 * HYDROSAR. Based on Sentinel-1 (SAR) observations.
 
