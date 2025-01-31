@@ -2,16 +2,27 @@
 
 NOTE: This repository is in active development. All notebooks here are subject to change and do not include full documentation. 
 
-Welcome to SERVIR's Flood Mapping Intercomparison Github! This code repository will introduce you to different flood mapping products and packages produced by researchers including ESA (The European Space Agency) and NASA (The US National Aeronautics and Space Administration). These flood mapping products map surface water in near real time from satellite observations. The flood products considered for this study include the following products: 
+Welcome to SERVIR's Flood Mapping Intercomparison Github! This code repository will introduce you to different flood mapping products and packages produced by researchers such as ESA (The European Space Agency) and NASA (The US National Aeronautics and Space Administration), and NOAA (The US National Oceanic and Atmospheric Administration). These flood mapping products map surface water in near real time from satellite observations. The flood products considered for this study include the following products. For a complete overview of the products and their official citations, please see the spreadsheet in this repository titled "flood_products": 
 
-* VFM (VIIRS flood Map). Based on VIIRS (optical) satellite observations.
-* GFM (Global Flood Monitor). Based on Sentinel-1 (SAR) satellite observations.
-* MCDWD (MODIS Combined Water Detection Product). Based on MODIS (optical) satellite observations.
-* DSWx-HLS (Dynamic Surface Water Extent - Harmonized Landsat Sentinel Product). Based on HLS (optical) observations.
+* VFM (VIIRS flood Map)
+     * Based on VIIRS (optical) satellite observations.
+     * Produced by NOAA
+* GFM (Global Flood Monitor)
+     * Based on Sentinel-1 (Synthetic Aperture Radar) satellite observations.
+     * Produced by ESA Copernicus Program. 
+* MCDWD (MODIS Combined Water Detection Product).
+     * Based on MODIS (optical) satellite observations.
+     * Produced by NASA
+* DSWx-HLS (Dynamic Surface Water Extent - Harmonized Landsat Sentinel Product).
+     * Based on HLS (optical) observations.
+     * Produced by NASA 
 * DSWx-S1 (Dynamic Surface Water Extent - Sentinel-1)
-    * Based on Sentinel-1 (SAR) observations. 
+    * Based on Sentinel-1 (SAR) observations.
+    * Produced by NASA
 * HYDRAFloods. Based on Sentinel-1 observations.
+     * Produced by SERVIR (A joint NASA-USAID program)
 * HYDROSAR. Based on Sentinel-1 (SAR) observations.
+     * Produced by NASA and others
 
 This repository allows you to do the following for a given flood event of interest: 
   1. Determine if there was a Sentinel-1 and/or HLS overpass on your date of interest. If there are both, it will return the overlapping footprint of Sentinel-1 and HLS.
