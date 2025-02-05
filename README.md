@@ -20,9 +20,13 @@ This repository allows you to do the following for a given flood event of intere
 
 The repository consists of both "sections" and "modules". Both of these are .ipynb files. The "modules" are designed to be reused by you. The "sections" are code that we used in our research, but are not designed to be replicated. This is because they either contain once-used calculations to aid in statistical analysis or access commercial imagert that we used for validation. In order to run the modules, you will need a time period of interest, and a region of interest. for a flood event.You can run the modules sequentially (i.e module 1, module 2, module 3....) to replicate our workflow. Below you can find a description of what each script and module will do. 
 
+Sections
+
 * Section A: Case Study Search. This script will take a file containing flood events and output a file showing the satellite overpass and cloud cover information for each flood event. We used this section to obtain a handful of flood events that we examined in this project. 
 * Section B: Obtaining reference imagery. This script will help you determine areas where we can order high-resolution commercial satellite imagery for data validation
 * Section C: Slope and Elevation Analysis. This script was used to determine the slope and elevation classes used in the sampling design
+
+Modules
 
 * Module 1: Data Availability. This module will show where the Sentinel-1 overpass and the Harmonized Landsat Sentinel overpass overlap. This intersection will serve as the area of interest for the remainder of our modules. 
 * Module 2: HydroSAR: This module will obtain the HydroSAR flood product for the region of interest during a single day of interest. 
@@ -30,5 +34,7 @@ The repository consists of both "sections" and "modules". Both of these are .ipy
 * Module 4: Product Access. This module will access the MCDWD, VFM, GFM, DSWx-HLS, and DSWX-S1 products (if they are available) for the region of interest during a single day of interest.
 * Module 5: Harmonization & Validation. This module will harmonize all available products to a single classification schema.
 * Module 6: Sampling Design: This module will distribute sample points that we will use to validate the flood products.
+* (Under Construction) Module 7 : Reference Data Collection: This module will teach you how to create a project in Collect Earth Online and collect points
+* Module 8: Accuracy Assessment. This module will calculate accuracy statistics of each flood product.
 
   For a full overview of these products, including the products full names, documentation, spatial extent/resolution, temporal extent/resolution, latency, and more, please see the spreadsheet called "flood_product_info.csv" located in the main folder of this Github. The notebooks folder contains several Google Colaboratory notebooks that will allow you to replicate our workflow. 
