@@ -49,4 +49,7 @@ Modules
 * (Under Construction) Module 7 : Reference Data Collection: This module will teach you how to create a project in Collect Earth Online and collect points
 * Module 8: Accuracy Assessment. This module will calculate accuracy statistics of each flood product.
 
+
+If you intend to replicate the entire workflow, you can run the sections and modules in the following order: Section A --> Modules 1 - 5 --> Section B --> Modules 6 & 7 --> Section C --> Module 8
+
   For a full overview of these products, including the products full names, documentation, spatial extent/resolution, temporal extent/resolution, latency, and more, please see the spreadsheet called "flood_product_info.csv" located in the main folder of this Github. The notebooks folder contains several Google Colaboratory notebooks that will allow you to replicate our workflow. 
