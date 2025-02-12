@@ -2,7 +2,8 @@
 
 NOTE: This repository is in active development. All notebooks here are subject to change and do not include full documentation. 
 
-Welcome to SERVIR's Flood Mapping Intercomparison Github! This code repository will introduce you to different flood mapping products and packages produced by researchers such as ESA (The European Space Agency) and NASA (The US National Aeronautics and Space Administration), and NOAA (The US National Oceanic and Atmospheric Administration). These flood mapping products map surface water in near real time from satellite observations. The flood products considered for this study include the following products. For a complete overview of the products and their official citations, please see the spreadsheet in this repository titled "flood_products": 
+Welcome to SERVIR's Flood Mapping Intercomparison Github! This code repository will introduce you to different flood mapping products and packages produced by researchers such as ESA (The European Space Agency) and NASA (The US National Aeronautics and Space Administration), and NOAA (The US National Oceanic and Atmospheric Administration). These flood mapping products map surface water in near real time from satellite observations. The flood products considered for this study include the following products. For a complete overview of the products and their official citations, please see the document called "flood_product_specifications", which is located in the "resources" folder of this repository. 
+
 
 * VFM (VIIRS flood Map)
      * Based on VIIRS (optical) satellite observations.
