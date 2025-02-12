@@ -41,9 +41,9 @@ Sections
 Modules
 
 * Module 1: Data Availability. This module will show where the Sentinel-1 overpass and the Harmonized Landsat Sentinel overpass overlap. This intersection will serve as the area of interest for the remainder of our modules. 
-* Module 2: HydroSAR: This module will obtain the HydroSAR flood product for the region of interest during a single day of interest. 
-* Module 3: HydraFloods: This module will obtain the HYDRAFloods flood product for the region of interest during a single day of interest. 
-* Module 4: Product Access. This module will access the MCDWD, VFM, GFM, DSWx-HLS, and DSWX-S1 products (if they are available) for the region of interest during a single day of interest.
+* Module 2: HydroSAR: This module will obtain the HydroSAR flood product for the region of interest during a single day of interest.
+* Module 3: Product Access. This module will access the MCDWD, VFM, GFM, DSWx-HLS, and DSWX-S1 products (if they are available) for the region of interest during a single day of interest.
+* Module 4: HydraFloods: This module will obtain the HYDRAFloods flood product for the region of interest during a single day of interest. 
 * Module 5: Harmonization & Validation. This module will harmonize all available products to a single classification schema.
 * Module 6: Sampling Design: This module will distribute sample points that we will use to validate the flood products.
 * (Under Construction) Module 7 : Reference Data Collection: This module will teach you how to create a project in Collect Earth Online and collect points
