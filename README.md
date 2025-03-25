@@ -43,22 +43,21 @@ The repository consists of both "sections" and "modules". Both of these are .ipy
 
 Sections
 
-* Section A: Case Study Search. This script will take a file containing flood events and output a file showing the satellite overpass and cloud cover information for each flood event. We used this section to obtain a handful of flood events that we examined in this project. 
+* Section A: Case Study Search. This script will take a file containing flood events and output a file showing the satellite overpass and cloud cover information for each flood event. We used this section to obtain a handful of flood events that we examined in this project.
+* Section A1: Data Cleaning. This script will assist you in formatting a CSV to feed to Section A as an input. 
 * Section B: Obtaining reference imagery. This script will help you determine areas where we can order high-resolution commercial satellite imagery for data validation
 * Section C: Slope and Elevation Analysis. This script was used to determine the slope and elevation classes used in the sampling design
 
 Modules
 
 * Module 1: Data Availability. This module will show where the Sentinel-1 overpass and the Harmonized Landsat Sentinel overpass overlap. This intersection will serve as the area of interest for the remainder of our modules. 
-* Module 2: HydroSAR: This module will obtain the HydroSAR flood product for the region of interest during a single day of interest.
-* Module 3: Product Access. This module will access the MCDWD, VFM, GFM, DSWx-HLS, and DSWX-S1 products (if they are available) for the region of interest during a single day of interest.
-* Module 4: HydraFloods: This module will obtain the HYDRAFloods flood product for the region of interest during a single day of interest. 
-* Module 5: Harmonization & Validation. This module will harmonize all available products to a single classification schema.
-* Module 6: Sampling Design: This module will distribute sample points that we will use to validate the flood products.
+* Module 2: Product Access. This module will access the MCDWD, VFM, GFM, DSWx-HLS, and DSWx-S1 products, and run the HYDRAFloods and HYDROSAR software for the region of interest during a single day of interest.
+* Module 3: Harmonization & Validation. This module will harmonize all available products to a single classification schema.
+* Module 4: Sampling Design: This module will distribute sample points that we will use to validate the flood products.
 * (Under Construction) Module 7 : Reference Data Collection: This module will teach you how to create a project in Collect Earth Online and collect points
-* Module 8: Accuracy Assessment. This module will calculate accuracy statistics of each flood product.
+* Module 5: Accuracy Assessment. This module will calculate accuracy statistics of each flood product.
 
 
-If you intend to replicate the entire workflow, you can run the sections and modules in the following order: Section A --> Modules 1 - 5 --> Section B --> Modules 6 & 7 --> Section C --> Module 8
+If you intend to replicate the entire workflow, you can run the sections and modules in the following order: Section A1 --> Section A --> Modules 1 & 2--> Section B --> Modules 3 & 4 --> Section C --> Module 5
 
   For a full overview of these products, including the products full names, documentation, spatial extent/resolution, temporal extent/resolution, latency, and more, please see the spreadsheet called "flood_product_info.csv" located in the main folder of this Github. The notebooks folder contains several Google Colaboratory notebooks that will allow you to replicate our workflow. 
