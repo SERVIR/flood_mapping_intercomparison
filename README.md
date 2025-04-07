@@ -50,14 +50,15 @@ Sections
 
 Modules
 
-* Module 1: Data Availability. This module will show where the Sentinel-1 overpass and the Harmonized Landsat Sentinel overpass overlap. This intersection will serve as the area of interest for the remainder of our modules. 
-* Module 2: Product Access. This module will access the MCDWD, VFM, GFM, DSWx-HLS, and DSWx-S1 products, and run the HYDRAFloods and HYDROSAR software for the region of interest during a single day of interest.
-* Module 3: Harmonization & Validation. This module will harmonize all available products to a single classification schema.
-* Module 4: Sampling Design: This module will distribute sample points that we will use to validate the flood products.
-* (Under Construction) Module 7 : Reference Data Collection: This module will teach you how to create a project in Collect Earth Online and collect points
-* Module 5: Accuracy Assessment. This module will calculate accuracy statistics of each flood product.
+* Module 1 -- Data Availability: This module will show where the Sentinel-1 overpass and the Harmonized Landsat Sentinel overpass overlap. This intersection will serve as the area of interest for the remainder of our modules. 
+* Module 2 -- Product Access: This module will access the MCDWD, VFM, GFM, DSWx-HLS, and DSWx-S1 products, and run the HYDRAFloods and HYDROSAR software for the region of interest during a single day of interest.
+* Module 2A -- Traditional Product Access: This module will do the same thing as Module 2, but will guide you to accessing the products via their respective online repositories rather than using their Python API's. It is recommended to follow Module 2 rather than Module 2A. 
+* Module 3 -- Harmonization & Validation: This module will harmonize all available products to a single classification schema.
+* Module 4 -- Sampling Design: This module will distribute sample points that we will use to validate the flood products.
+* Module 5 -- Reference Data Collection: This module will teach you how to create a project in Collect Earth Online and collect points
+* Module 6 --Accuracy Assessment. This module will calculate accuracy statistics of each flood product.
 
 
-If you intend to replicate the entire workflow, you can run the sections and modules in the following order: Section A1 --> Section A --> Modules 1 & 2--> Section B --> Modules 3 & 4 --> Section C --> Module 5
+If you intend to replicate the entire workflow, you can run the sections and modules in the following order: Section A1 --> Section A --> Module 1 --> Module 2 OR Module 2A --> Module 3 --> Section B --> Module 4 --> Section C --> Module 5
 
   For a full overview of these products, including the products full names, documentation, spatial extent/resolution, temporal extent/resolution, latency, and more, please see the spreadsheet called "flood_product_info.csv" located in the main folder of this Github. The notebooks folder contains several Google Colaboratory notebooks that will allow you to replicate our workflow. 
