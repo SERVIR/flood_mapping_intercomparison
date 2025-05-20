@@ -24,7 +24,7 @@ The flood products considered for this study include the following products. For
      * Based on VIIRS (optical) satellite observations.
      * Produced by NOAA
 * GFM (Global Flood Monitor)
-     * Based on Sentinel-1 (Synthetic Aperture Radar) satellite observations.
+     * Based on Sentinel-1 (SAR) satellite observations.
      * Produced by ESA Copernicus Program. 
 * MCDWD (MODIS Combined Water Detection Product).
      * Based on MODIS (optical) satellite observations.
