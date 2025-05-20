@@ -35,10 +35,14 @@ The flood products considered for this study include the following products. For
 * DSWx-S1 (Dynamic Surface Water Extent - Sentinel-1)
     * Based on Sentinel-1 (SAR) observations.
     * Produced by NASA
-* HYDRAFloods. Based on Sentinel-1 observations.
+* HYDRAFloods.
+     * Based on Sentinel-1 (SAR)observations.
      * Produced by SERVIR (A joint NASA-USAID program)
-* HYDROSAR. Based on Sentinel-1 (SAR) observations.
-     * Produced by NASA and others
+* HYDROSAR.
+     * Based on Sentinel-1 (SAR) observations.
+     * Produced by a NASA-funded team at Alaska Satellite Facility, NASA Goddard Space Flight Center, and NASA
+       Marshall Space Flight Center
+
 
 This repository allows you to do the following for a given flood event of interest: 
   1. Determine if there was a Sentinel-1 and/or HLS overpass on your date of interest. If there are both, it will return the overlapping footprint of Sentinel-1 and HLS.
