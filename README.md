@@ -9,8 +9,8 @@ PREREQUISITES
 To run this code, you will need 
 * a Google Earth Engine account
 * A Google Earth Engine project linked to the above Google Earth Engine account. See [this page](https://developers.google.com/earth-engine/guides/access)
-* A NASA Earthdata account. To create a new account: click [here](https://urs.earthdata.nasa.gov/users/new)
-* A Global Flood Mapping (GFM) Account. 
+* A NASA Earthdata account. To create a new account, click [here](https://urs.earthdata.nasa.gov/users/new)
+* A Global Flood Mapping (GFM) Account. To create a new account, click [here](https://portal.gfm.eodc.eu/register)
 
 The flood products considered for this study include the following products. For a complete overview of the products and their official citations, please see the document called "flood_product_specifications", which is located in the "resources" folder of this repository. 
 
