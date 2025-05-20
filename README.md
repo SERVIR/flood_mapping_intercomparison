@@ -4,7 +4,7 @@ NOTE: This repository is in active development. All notebooks here are subject t
 
 Welcome to SERVIR's Flood Mapping Intercomparison Github! This code repository will introduce you to different flood mapping products and packages produced by researchers at ESA (The European Space Agency), NASA (The US National Aeronautics and Space Administration), and NOAA (The US National Oceanic and Atmospheric Administration). These flood mapping products map surface water in near real time from satellite observations. In order to work with this code, you will need the following accounts:
 
-**PREREQUISITES** 
+#**PREREQUISITES** 
 
 To run this code, you will need 
 * a Google Earth Engine account
