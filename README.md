@@ -2,7 +2,7 @@
 
 NOTE: This repository is in active development. All notebooks here are subject to change and do not include full documentation. All code is written and maintained by Micky Maganini. If you encounter an issue working with this code, feel free to post in the "Issues" Section here, or email me at mrm0065@uah.edu.
 
-Welcome to SERVIR's Flood Mapping Intercomparison Github! This code repository will introduce you to different flood mapping products and packages produced by researchers such as ESA (The European Space Agency) and NASA (The US National Aeronautics and Space Administration), and NOAA (The US National Oceanic and Atmospheric Administration). These flood mapping products map surface water in near real time from satellite observations. In order to work with this code, you will need the following accounts:
+Welcome to SERVIR's Flood Mapping Intercomparison Github! This code repository will introduce you to different flood mapping products and packages produced by researchers at ESA (The European Space Agency), NASA (The US National Aeronautics and Space Administration), and NOAA (The US National Oceanic and Atmospheric Administration). These flood mapping products map surface water in near real time from satellite observations. In order to work with this code, you will need the following accounts:
 
 PREREQUISITES 
 
