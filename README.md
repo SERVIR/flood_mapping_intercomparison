@@ -68,8 +68,9 @@ Modules
 * Module 4 -- Sampling Design: This module will distribute sample points that we will use to validate the flood products.
 * Module 5 -- Reference Data Collection: This module will teach you how to create a project in Collect Earth Online and collect points
 * Module 6 --Accuracy Assessment. This module will calculate accuracy statistics of each flood product.
+* Module 7 -- Intersection Over Union. This module will allow you to calculate the intersection over union for various flood products in order to compare how similar they are. 
 
 
-If you intend to replicate the entire workflow, you can run the sections and modules in the following order: Section A1 --> Section A --> Module 1 --> Module 2 OR Module 2A --> Module 3 --> Section B --> Module 4 --> Section C --> Module 5. PLEASE NOTE: These modules were written with the intent of use for flood events where all seven products are available (i.e. there are cloud-free overpasses for VIIRS and MODIS, and there is an HLS & Sentinel-1 overpass on the day of interest). In order to apply this workflow to different flood events where one or more products are not available, the workflow may have to be modified. 
+If you intend to replicate the entire workflow, you can run the sections and modules in the following order: Section A1 --> Section A --> Module 1 --> Module 2 OR Module 2A --> Module 3 --> Section B --> Module 4 --> Section C --> Modules 5-7. PLEASE NOTE: These modules were written with the intent of use for flood events where all seven products are available (i.e. there are cloud-free overpasses for VIIRS and MODIS, and there is an HLS & Sentinel-1 overpass on the day of interest). In order to apply this workflow to different flood events where one or more products are not available, the workflow may have to be modified. 
 
   For a full overview of these products, including the products full names, documentation, spatial extent/resolution, temporal extent/resolution, latency, and more, please see the spreadsheet called "flood_product_info.csv" located in the "resources" folder of this Github. This folder also contains links to papers and resources for different flood products. 
