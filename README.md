@@ -13,7 +13,7 @@ In order to work with the code located in the notebooks folder, you will need th
 ## **PREREQUISITES** 
 
 To run this code, you will need 
-* a Google Earth Engine account
+* A Google Earth Engine account
 * A Google Earth Engine project linked to the above Google Earth Engine account. See [this page](https://developers.google.com/earth-engine/guides/access)
 * A NASA Earthdata account. To create a new account, click [here](https://urs.earthdata.nasa.gov/users/new)
 * A Global Flood Mapping (GFM) Account. To create a new account, click [here](https://portal.gfm.eodc.eu/register)
@@ -60,8 +60,11 @@ Modules
 * Module 3 -- Harmonization & Validation: This module will harmonize all available products to a single classification schema.
 * Module 4 -- Sampling Design: This module will distribute sample points that we will use to validate the flood products.
 * Module 5 -- Reference Data Collection: This module will teach you how to create a project in Collect Earth Online and collect points
-* Module 6 --Accuracy Assessment. This module will calculate accuracy statistics of each flood product. This includes overall accuracy, precision, recall, F1 score, and the Normalized Matthew's Correlation Coefficient. These metrics will be calculated for all points as well as for subpopulations relating to landcover
-* Module 7 -- Accuracy Visualization. This modu
+* Module 6 -- Accuracy Assessment. This module will calculate accuracy statistics of each flood product. This includes overall accuracy, precision, recall, F1 score, and the Normalized Matthew's Correlation Coefficient. These metrics will be calculated for all points as well as for subpopulations relating to landcover, slope, and elevation. 
+* Module 7 -- Accuracy Visualization. This module will visualize the metrics calculated in Module 6 for different flood events, land cover types, and slope/elevation regimes
+* Module 8 -- Resampling. This module will resample all flood products to a common pixel size of 30 meters.
+* Module 9 -- Intersection Over Union. This module will caclulate the Intersection over Union for each pair of flood products in order to measure the similarity of each map's classification.
+  
 Sections
 
 * Section A: Case Study Search. This script will take a file containing flood events and output a file showing the satellite overpass and cloud cover information for each flood event. We used this section to obtain a handful of flood events that we examined in this project.
