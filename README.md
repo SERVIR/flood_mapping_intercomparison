@@ -52,13 +52,6 @@ This repository allows you to do the following for a given flood event of intere
 
 The repository consists of both "sections" and "modules". Both of these are .ipynb files and can be found in the notebooks folder of the Github. The "modules" are designed to be reused by you. The "sections" are code that we used in our research, but are not designed to be replicated. This is because they either contain once-used calculations to aid in statistical analysis or access commercial imagert that we used for validation. In order to run the modules, you will need a time period of interest, and a region of interest. for a flood event.You can run the modules sequentially (i.e module 1, module 2, module 3....) to replicate our workflow. Below you can find a description of what each script and module will do. 
 
-Sections
-
-* Section A: Case Study Search. This script will take a file containing flood events and output a file showing the satellite overpass and cloud cover information for each flood event. We used this section to obtain a handful of flood events that we examined in this project.
-* Section A1: Data Cleaning. This script will assist you in formatting a CSV to feed to Section A as an input. 
-* Section B: Obtaining reference imagery. This script will help you determine areas where we can order high-resolution commercial satellite imagery for data validation
-* Section C: Slope and Elevation Analysis. This script was used to determine the slope and elevation classes used in the sampling design
-
 Modules
 
 * Module 1 -- Data Availability: This module will show where the Sentinel-1 overpass and the Harmonized Landsat Sentinel overpass overlap. This intersection will serve as the area of interest for the remainder of our modules. 
@@ -67,8 +60,14 @@ Modules
 * Module 3 -- Harmonization & Validation: This module will harmonize all available products to a single classification schema.
 * Module 4 -- Sampling Design: This module will distribute sample points that we will use to validate the flood products.
 * Module 5 -- Reference Data Collection: This module will teach you how to create a project in Collect Earth Online and collect points
-* Module 6 --Accuracy Assessment. This module will calculate accuracy statistics of each flood product.
-* Module 7 -- Intersection Over Union. This module will allow you to calculate the intersection over union for various flood products in order to compare how similar they are. 
+* Module 6 --Accuracy Assessment. This module will calculate accuracy statistics of each flood product. This includes overall accuracy, precision, recall, F1 score, and the Normalized Matthew's Correlation Coefficient. These metrics will be calculated for all points as well as for subpopulations relating to landcover
+* Module 7 -- Accuracy Visualization. This modu
+Sections
+
+* Section A: Case Study Search. This script will take a file containing flood events and output a file showing the satellite overpass and cloud cover information for each flood event. We used this section to obtain a handful of flood events that we examined in this project.
+* Section A1: Data Cleaning. This script will assist you in formatting a CSV to feed to Section A as an input. 
+* Section B: Obtaining reference imagery. This script will help you determine areas where we can order high-resolution commercial satellite imagery for data validation
+* Section C: Slope and Elevation Analysis. This script was used to determine the slope and elevation classes used in the sampling design
 
 
 If you intend to replicate the entire workflow, you can run the sections and modules in the following order: Section A1 --> Section A --> Module 1 --> Module 2 OR Module 2A --> Module 3 --> Section B --> Module 4 --> Section C --> Modules 5-7. PLEASE NOTE: These modules were written with the intent of use for flood events where all seven products are available (i.e. there are cloud-free overpasses for VIIRS and MODIS, and there is an HLS & Sentinel-1 overpass on the day of interest). In order to apply this workflow to different flood events where one or more products are not available, the workflow may have to be modified. 
