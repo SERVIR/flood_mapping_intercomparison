@@ -8,4 +8,12 @@ tags:
   - Flooding
   - Surface Water
 authors:
-  -
+  - name: Micky Maganini
+    orcid: 0000-0002-4160-3954
+    corresponding: true
+    affiliation: 1, 2
+  - name: Amanda Markert
+    orcid: 0000-0001-5353-8929
+    affiliation: 1, 2
+    
+
