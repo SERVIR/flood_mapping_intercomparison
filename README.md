@@ -63,7 +63,7 @@ Modules
 * Module 6 -- Accuracy Assessment. This module will calculate accuracy statistics of each flood product. This includes overall accuracy, precision, recall, F1 score, and the Normalized Matthew's Correlation Coefficient. These metrics will be calculated for all points as well as for subpopulations relating to landcover, slope, and elevation. 
 * Module 7 -- Accuracy Visualization. This module will visualize the metrics calculated in Module 6 for different flood events, land cover types, and slope/elevation regimes
 * Module 8 -- Resampling. This module will resample all flood products to a common pixel size of 30 meters.
-* Module 9 -- Intersection Over Union. This module will caclulate the Intersection over Union for each pair of flood products in order to measure the similarity of each map's classification.
+* Module 9 -- Intersection Over Union. This module will caclulate the Intersection over Union for each pair of flood products in order to measure the similarity of each map's classification. In the absence of a ground truth raster, this module allows us to compare the degree of agreement of different flood maps. 
   
 Sections
 
