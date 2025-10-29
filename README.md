@@ -1,10 +1,10 @@
-# flood_mapping_intercomparison
+# FMI -- Flood Mapping Intercomparison
 
 ## **Introduction**
 
 NOTE: This repository is in active development. All notebooks here are subject to change and do not include full documentation. All code is written and maintained by Micky Maganini. If you encounter an issue working with this code, feel free to post in the "Issues" Section here, or email me at mrm0065@uah.edu.
 
-Welcome to SERVIR's Flood Mapping Intercomparison Github! This code repository will introduce you to different flood mapping products and packages produced by researchers at ESA (The European Space Agency), NASA (The US National Aeronautics and Space Administration), and NOAA (The US National Oceanic and Atmospheric Administration). These flood mapping products map surface water in near real time from satellite observations.
+Welcome to SERVIR's Flood Mapping Intercomparison (FMI) code repository! This repo will introduce you to different flood mapping products and packages produced by researchers at ESA (The European Space Agency), NASA (The US National Aeronautics and Space Administration), and NOAA (The US National Oceanic and Atmospheric Administration). These flood mapping products map surface water in near real time from satellite observations.
 
 This repository contains two folders: "notebooks" and "resources". In the notebooks folder, you will find code that will allow you to automatically access these flood maps, as well as replicate our accuracy assessment workflow. In the resources folder, you will find a spreadsheet listing all of the characteristics of each product, as well as links to further training materials and documentation for each product. 
 
@@ -50,7 +50,7 @@ This repository allows you to do the following for a given flood event of intere
   3. Obtain up to 7 flood products (depending on temporal extent and resolution of products) for a given day during a flood event.
   4.  Distribute sampling points in order to evaluate the accuracy of the various flood products based on reference data obtained from high-resolution imagery.
 
-The repository consists of both "sections" and "modules". Both of these are .ipynb files and can be found in the notebooks folder of the Github. The "modules" are designed to be reused by you. The "sections" are code that we used in our research, but are not designed to be replicated. This is because they either contain once-used calculations to aid in statistical analysis or access commercial imagert that we used for validation. In order to run the modules, you will need a time period of interest, and a region of interest. for a flood event.You can run the modules sequentially (i.e module 1, module 2, module 3....) to replicate our workflow. Below you can find a description of what each script and module will do. 
+The repository consists of both "sections" and "modules". Both of these are .ipynb files and can be found in the notebooks folder of the Github. The "modules" are designed to be reused by you. The "sections" are code that we used in our research, but are not designed to be replicated. This is because they either contain once-used calculations to aid in statistical analysis or access commercial imagery that we used for validation of flood products. In order to run the modules, you will need a time period of interest, and a region of interest for a flood event. The modules assume that this time period and region of interest have HLS and Sentinel-1 overpasses on the same day so that all flood products can be accessed. If that is not the case, further edits must be made to the code. You can run the modules sequentially (i.e module 1, module 2, module 3....) to replicate our workflow. Below you can find a description of what each script and module will do. 
 
 Modules
 
@@ -71,6 +71,7 @@ Sections
 * Section A1: Data Cleaning. This script will assist you in formatting a CSV to feed to Section A as an input. 
 * Section B: Obtaining reference imagery. This script will help you determine areas where we can order high-resolution commercial satellite imagery for data validation
 * Section C: Slope and Elevation Analysis. This script was used to determine the slope and elevation classes used in the sampling design
+* Section D: Google Drive Export: Allows for exporting of flood maps from Google Earth Engine to Google Drive for further analysis. 
 
 
 If you intend to replicate the entire workflow, you can run the sections and modules in the following order: Section A1 --> Section A --> Module 1 --> Module 2 OR Module 2A --> Module 3 --> Section B --> Module 4 --> Section C --> Modules 5-7. PLEASE NOTE: These modules were written with the intent of use for flood events where all seven products are available (i.e. there are cloud-free overpasses for VIIRS and MODIS, and there is an HLS & Sentinel-1 overpass on the day of interest). In order to apply this workflow to different flood events where one or more products are not available, the workflow may have to be modified. 
