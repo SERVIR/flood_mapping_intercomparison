@@ -71,7 +71,8 @@ Sections
 * Section A1: Data Cleaning. This script will assist you in formatting a CSV to feed to Section A as an input. 
 * Section B: Obtaining reference imagery. This script will help you determine areas where we can order high-resolution commercial satellite imagery for data validation
 * Section C: Slope and Elevation Analysis. This script was used to determine the slope and elevation classes used in the sampling design
-* Section D: Google Drive Export: Allows for exporting of flood maps from Google Earth Engine to Google Drive for further analysis. 
+* Section D: Google Drive Export: Allows for exporting of flood maps from Google Earth Engine to Google Drive for further analysis.
+* Section E: Manual Validation: Used to validate the statistics calculated in Module 3 and Module 9. 
 
 
 If you intend to replicate the entire workflow, you can run the sections and modules in the following order: Section A1 --> Section A --> Module 1 --> Module 2 OR Module 2A --> Module 3 --> Section B --> Module 4 --> Section C --> Modules 5-7. PLEASE NOTE: These modules were written with the intent of use for flood events where all seven products are available (i.e. there are cloud-free overpasses for VIIRS and MODIS, and there is an HLS & Sentinel-1 overpass on the day of interest). In order to apply this workflow to different flood events where one or more products are not available, the workflow may have to be modified. 
