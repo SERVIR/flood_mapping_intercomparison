@@ -1,5 +1,8 @@
 # FMI -- Flood Mapping Intercomparison
 
+<img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/5a6c0151-139e-4442-a7fa-5b6593173907" />
+
+
 ## **Introduction**
 
 Welcome to SERVIR's Flood Mapping Intercomparison (FMI) code repository! This repo will introduce you to different flood mapping products and packages produced by researchers at ESA (The European Space Agency), NASA (The US National Aeronautics and Space Administration), and NOAA (The US National Oceanic and Atmospheric Administration). These flood mapping products map surface water in near real time from satellite observations.
