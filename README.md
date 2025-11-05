@@ -2,11 +2,9 @@
 
 ## **Introduction**
 
-NOTE: This repository is in active development. All notebooks here are subject to change and do not include full documentation. All code is written and maintained by Micky Maganini. If you encounter an issue working with this code, feel free to post in the "Issues" Section here, or email me at mrm0065@uah.edu.
-
 Welcome to SERVIR's Flood Mapping Intercomparison (FMI) code repository! This repo will introduce you to different flood mapping products and packages produced by researchers at ESA (The European Space Agency), NASA (The US National Aeronautics and Space Administration), and NOAA (The US National Oceanic and Atmospheric Administration). These flood mapping products map surface water in near real time from satellite observations.
 
-This repository contains two folders: "notebooks" and "resources". In the notebooks folder, you will find code that will allow you to automatically access these flood maps, as well as replicate our accuracy assessment workflow. In the resources folder, you will find a spreadsheet listing all of the characteristics of each product, as well as links to further training materials and documentation for each product. 
+This repository contains two folders: "notebooks" and "resources". In the notebooks folder, you will find code that will allow you to automatically access these flood maps, as well as replicate our accuracy assessment workflow. In the resources folder, you will find a spreadsheet listing all of the characteristics of each product, as well as links to further training materials and documentation for each product. If you encounter an issue working with this code, feel free to post in the "Issues" Section here, or email me at mrm0065@uah.edu.
 
 In order to work with the code located in the notebooks folder, you will need the following accounts:
 
