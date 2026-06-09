@@ -36,10 +36,10 @@ The flood products considered for this study include the following products. For
 * DSWx-S1 (Dynamic Surface Water Extent - Sentinel-1)
     * Based on Sentinel-1 (SAR) observations.
     * Produced by NASA
-* HYDRAFloods.
+* HYDRAFloods
      * Based on Sentinel-1 (SAR)observations.
      * Produced by SERVIR (A joint NASA-USAID program)
-* HYDROSAR.
+* HYDROSAR
      * Based on Sentinel-1 (SAR) observations.
      * Produced by a NASA-funded team at Alaska Satellite Facility, NASA Goddard Space Flight Center, and NASA
        Marshall Space Flight Center
